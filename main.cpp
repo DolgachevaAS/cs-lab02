@@ -10,5 +10,7 @@ cin>>a>>b;
 cout<<"A+B="<<a+b<<'\n';
 cout<< "A-B="<<a-b<<'\n';
 cout<< "3A*B="<<3*a*b<<'\n';// proisvedenie
+cout<< "A/B="<<a/b<<'\n';
+
     return 0;
 }
