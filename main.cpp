@@ -11,6 +11,11 @@ cout<<"A+B="<<a+b<<'\n';
 cout<< "A-B="<<a-b<<'\n';
 cout<< "3A*B="<<3*a*b<<'\n';// proisvedenie
 cout<< "A/B="<<a/b<<'\n';
-
+if (a>b)
+{
+    cout<<"max="<<a<<'/n';//вывод максимума
+}
+else
+{cout<<"max="<<b<<endl;}
     return 0;
 }
