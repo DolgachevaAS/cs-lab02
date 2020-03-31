@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-cout<<"Enter A and B"<<endl;
-int a, b;
+cout<<"Enter A and B";
+double a, b;
 cin>>a>>b;
 cout<<"A+B="<<a+b<<'\n';
 cout<< "A-B="<<a-b<<'\n';
@@ -13,9 +13,10 @@ cout<< "3A*B="<<3*a*b<<'\n';// proisvedenie
 cout<< "A/B="<<a/b<<'\n';
 if (a>b)
 {
-    cout<<"min="<<a<<'/n';
+    cout<<"max="<<a<<'/n';//вывод максимума
 }
 else
-{cout<<"min="<<b<<endl;}
+{cout<<"max="<<b<<endl;}
+
     return 0;
 }
